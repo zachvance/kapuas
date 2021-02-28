@@ -37,10 +37,8 @@ def ison(key):
             with open("d.pickle", "rb") as f:
                 d = pickle.load(f)
                 if d[key] == 1:
-                    print(True)
                     return True
                 else:
-                    print(False)
                     return False
     except:
         print("Error: Switch does not exist")
@@ -52,10 +50,8 @@ def isoff(key):
             with open("d.pickle", "rb") as f:
                 d = pickle.load(f)
                 if d[key] == 0:
-                    print(True)
                     return True
                 else:
-                    print(False)
                     return False
     except:
         print("Error: Switch does not exist")
