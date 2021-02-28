@@ -1,7 +1,8 @@
 # Kapuas
 
-Kapuas is a small library utilizing pickle to make persistent, nameable, binary variables and alter or test
-their states.
+Kapuas is a small library utilizing pickle to make persistent, nameable, binary variables and alter or test their states.
+
+The variable names and states are stored in a dictionary, which is saved and loaded as a .pickle file so they are callable on subsequent runs of the program.
 
 #### Examples:
 
