@@ -6,6 +6,8 @@ their states.
 #### Examples:
 
 ```
+from kapuas import make, ison, on
+
 switch = "S1"
 
 # Create a switch named S1, with the default state as off (a value of 0).
