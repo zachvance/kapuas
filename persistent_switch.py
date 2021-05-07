@@ -6,7 +6,7 @@ import doctest
 """
 
 Persistent Switch is a small module utilizing pickle to make persistent, nameable, boolean variables and alter or test
-their states.
+their states..
 
 """
 
