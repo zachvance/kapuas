@@ -1,13 +1,13 @@
-# Kapuas
+# Persistent Switch
 
-Kapuas is a small library utilizing pickle to make persistent, nameable, boolean variables and alter or test their states.
+Persistent Switch is a small module utilizing pickle to make persistent, nameable, boolean variables and alter or test their states.
 
 The variable names and states are stored in a dictionary, which is saved and loaded as a .pickle file so they are callable on subsequent runs of the program.
 
 #### Examples:
 
 ```
-from kapuas import make, ison, on
+from persistent_switch import make, ison, on
 
 switch = "S1"
 
