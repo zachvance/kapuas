@@ -1,4 +1,3 @@
-
 """
 
 ========================================================================
@@ -20,6 +19,7 @@ import os.path
 import os
 import pickle
 
+
 def make(key):
     file = "d.pickle"
     if os.path.isfile(file) is True:
@@ -39,6 +39,7 @@ def make(key):
         with open("d.pickle", "wb") as f:
             pickle.dump(d, f)
 
+
 def ison(key):
     try:
         file = "d.pickle"
@@ -51,6 +52,7 @@ def ison(key):
                     return False
     except:
         print("Error: Switch does not exist")
+
 
 def isoff(key):
     try:
@@ -65,6 +67,7 @@ def isoff(key):
     except:
         print("Error: Switch does not exist")
 
+
 def on(key):
     try:
         file = "d.pickle"
@@ -77,6 +80,7 @@ def on(key):
     except:
         print("Error: Switch does not exist")
 
+
 def off(key):
     try:
         file = "d.pickle"
@@ -88,6 +92,7 @@ def off(key):
                     pickle.dump(d, f)
     except:
         print("Error: Switch does not exist")
+
 
 def toggle(key):
     try:
@@ -104,14 +109,17 @@ def toggle(key):
     except:
         print("Error: Switch does not exist")
 
+
 def explode():
     if os.path.exists("d.pickle"):
         os.remove("d.pickle")
     else:
         print("The file does not exist")
 
+
 def show():
     pass
+
 
 def delete(key):
     pass
