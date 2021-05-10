@@ -7,7 +7,7 @@ Persistent Switch
 
 Persistent Switch is a small module utilizing pickle to make
 persistent, nameable, boolean variables and alter or test their
-states.
+states...
 
 TODO:
     - Integrate functions into a class with variables
