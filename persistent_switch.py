@@ -1,14 +1,24 @@
-import pickle
+
+"""
+
+========================================================================
+Persistent Switch
+========================================================================
+
+Persistent Switch is a small module utilizing pickle to make
+persistent, nameable, boolean variables and alter or test their
+states.
+
+TODO:
+    - Integrate functions into a class with variables
+    - Add doctests
+
+"""
+
+import doctest
 import os.path
 import os
-import doctest
-
-"""
-
-Persistent Switch is a small module utilizing pickle to make persistent, nameable, boolean variables and alter or test
-their states..
-
-"""
+import pickle
 
 def make(key):
     file = "d.pickle"
